@@ -370,6 +370,10 @@ footer{
 	display: inline-block;
 	vertical-align: top;
 }
+
+.wrap-text{
+  overflow-wrap: anywhere;
+}
  
 /* Footer left */
  

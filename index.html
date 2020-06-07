@@ -1,91 +1,97 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>ACM-W, IIT Mandi</title>
-        <link rel="icon" href="Images/favicon.png" sizes="32x32" type="image/png">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script>
-            $(document).ready(function(){
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACM-W, IIT Mandi</title>
+    <link rel="icon" href="Images/favicon.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
             $(".nav-btn .fa-times").hide();
 
-            $(".nav-btn .fa-bars").click(function(){
-            $(this).hide();
-            $(".nav-btn .fa-times").show();
-            $(".navbar ul").addClass("active");
+            $(".nav-btn .fa-bars").click(function () {
+                $(this).hide();
+                $(".nav-btn .fa-times").show();
+                $(".navbar ul").addClass("active");
             });
 
-            $(".nav-btn .fa-times").click(function(){
-            $(this).hide();
-            $(".nav-btn .fa-bars").show();
-            $(".navbar ul ").removeClass("active");
+            $(".nav-btn .fa-times").click(function () {
+                $(this).hide();
+                $(".nav-btn .fa-bars").show();
+                $(".navbar ul ").removeClass("active");
             });
-            });
-        </script>
+        });
+    </script>
 
-        
-    </head>
-    <body>
-        <div class= "header">
-            <b>ACM-W, IIT Mandi</b>
-            <img src="Images/iitmandi.png" alt="iit logo" align="left" height="65px">
+
+</head>
+
+<body>
+    <div class="header">
+        <b>ACM-W, IIT Mandi</b>
+        <img src="Images/iitmandi.png" alt="iit logo" align="left" height="65px">
+    </div>
+    <nav class="navbar">
+        <div class="nav-btn">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <i class="fa fa-times" aria-hidden="true"></i>
+            <img src="Images/acmw.png" alt="Logo">
         </div>
-        <nav class= "navbar">
-            <div class="nav-btn">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-                <i class="fa fa-times" aria-hidden="true"></i>
-                <img src ="Images/acmw.png" alt="Logo">
-            </div>
-            <ul>
-                <img src ="Images/acmw.png" alt="Logo">
-                <li><a href="index.html#home">HOME</a></li>
-                <li><a href="index.html#initiatives">INITIATIVES</a></li>
-                <li><a href="index.html#events">EVENTS</a></li>
-                <li><a href="index.html#team">TEAM</a></li>
-                <li><a href="index.html#contacts">CONTACTS</a></li>
-            </ul>
-        </nav>
-        <div class="home" id="home">
-          <div class="imgbx">
+        <ul>
+            <img src="Images/acmw.png" alt="Logo">
+            <li><a href="index.html#home">HOME</a></li>
+            <li><a href="index.html#initiatives">INITIATIVES</a></li>
+            <li><a href="index.html#events">EVENTS</a></li>
+            <li><a href="index.html#team">TEAM</a></li>
+            <li><a href="index.html#contacts">CONTACTS</a></li>
+        </ul>
+    </nav>
+    <div class="home" id="home">
+        <div class="imgbx">
             <img src="Images/acmw.png">
-          </div>
-          <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            <p>
-          </div>
         </div>
-        <br>
-        <div class="events" id="events">
-            <div class="slideshow">
-                <div class="Slide fade">
-                    <img src="Images/Image1.jpg">
-                    <div class="Caption">Caption 1</div>
-                </div>
-                <div class="Slide fade">
-                    <img src="Images/Image2.jpg">
-                    <div class="Caption">Caption 2</div>
-                </div>
-                <div class="Slide fade">
-                    <img src="Images/Image3.jpg">
-                    <div class="Caption">Caption 3</div>
-                </div>
-    
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>    
-
-            <div class="Dots">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
+        <div class="content">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            <p>
+        </div>
+    </div>
+    <br>
+    <div class="events" id="events">
+        <div class="slideshow">
+            <div class="Slide fade">
+                <img src="Images/Image1.jpg">
+                <div class="Caption">Caption 1</div>
             </div>
-            
+            <div class="Slide fade">
+                <img src="Images/Image2.jpg">
+                <div class="Caption">Caption 2</div>
+            </div>
+            <div class="Slide fade">
+                <img src="Images/Image3.jpg">
+                <div class="Caption">Caption 3</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <script>
+
+        <div class="Dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </div>
+    <script>
         'use strict';
         var slideIndex = 1;
         showSlides();
@@ -102,58 +108,58 @@
             var i;
             var slides = document.getElementsByClassName("Slide");
             var dots = document.getElementsByClassName("dot");
-            if (n==undefined){n = ++slideIndex}
-            if (n > slides.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = slides.length}
+            if (n == undefined) { n = ++slideIndex }
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
             for (i = 0; i < slides.length; i++) {
                 slides[i].style.display = "none";
             }
             for (i = 0; i < dots.length; i++) {
                 dots[i].className = dots[i].className.replace(" active", "");
             }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-            
-            setTimeout(showSlides, 5000); 
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+
+            setTimeout(showSlides, 5000);
         }
 
-        </script>
-        <div class="team" id="team">
-            <div class="wrapper">
-                <h1>OUR TEAM</h1>
-                <div class="team_members">
-                    <div class="team_member">
-                        <div class="team_img">
-                            <img src="Images/team_member_image/img1.png" alt="team_member_image">
-                        </div>
-                        <h3>Team_member1_name</h3>
-                        <p class="role">Designation1</p>
+    </script>
+    <div class="team" id="team">
+        <div class="wrapper">
+            <h1>OUR TEAM</h1>
+            <div class="team_members">
+                <div class="team_member">
+                    <div class="team_img">
+                        <img src="Images/team_member_image/img1.png" alt="team_member_image">
                     </div>
-                    <div class="team_member">
-                        <div class="team_img">
-                            <img src="Images/team_member_image/img2.png" alt="team_member_image">
-                        </div>
-                        <h3>Team_member2_name</h3>
-                        <p class="role">Designation2</p>
+                    <h3>Team_member1_name</h3>
+                    <p class="role">Designation1</p>
+                </div>
+                <div class="team_member">
+                    <div class="team_img">
+                        <img src="Images/team_member_image/img2.png" alt="team_member_image">
                     </div>
-                    <div class="team_member">
-                        <div class="team_img">
-                            <img src="Images/team_member_image/img3.png" alt="team_member_image">
-                        </div>
-                        <h3>Team_member3_name</h3>
-                        <p class="role">Designation3</p>
+                    <h3>Team_member2_name</h3>
+                    <p class="role">Designation2</p>
+                </div>
+                <div class="team_member">
+                    <div class="team_img">
+                        <img src="Images/team_member_image/img3.png" alt="team_member_image">
                     </div>
+                    <h3>Team_member3_name</h3>
+                    <p class="role">Designation3</p>
                 </div>
             </div>
         </div>
-<div class="contacts" id="contacts">  
-<footer class="footer-distributed">
- 
-			<div class="footer-left">
-          <img src="Images/acmw.png">
-				<h3><span>ACM-W Student Chapter</span></h3>
- 
-				<!--<p class="footer-links">
+    </div>
+    <div class="contacts" id="contacts">
+        <footer class="footer-distributed">
+
+            <div class="footer-left">
+                <img src="Images/acmw.png">
+                <h3><span>ACM-W Student Chapter</span></h3>
+
+                <!--<p class="footer-links">
 					<a href="#">Home</a>
 					|
 					<a href="#">Initiatives</a>
@@ -164,45 +170,46 @@
 					|
 					<a href="#">Contact Us</a>
 				</p>-->
- 
-				<p class="footer-company-name">© 2020 ACM-W Student Chapter IIT Mandi</p>
-			</div>
- 
-			<div class="footer-center">
-            <div>
-					<i class="fa fa-facebook"></i>
-					<p><a href="https://www.facebook.com/groups/400497770649783/">Join at Facebook: ACM-W Chapter <br>IIT Mandi</a></p>
-				</div>
+
+                <p class="footer-company-name">© 2020 ACM-W Student Chapter IIT Mandi</p>
+            </div>
+
+            <div class="footer-center">
                 <div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:">acmwchapter@students.iitmandi.<br>ac.in</a></p>
-				</div>
-				<div>
-					<i class="fa fa-map-marker"></i>
-					  <p><span>Indian Institute of Technology Mandi,Mandi,<br> Himachal Pradesh, India-175005</span></p>
-				</div>
- 
-				
-                
-                
-			</div>
-			<div class="footer-right">
-<form action="http://formspree.io/" 
-  method="post">
-				<div class="form-style">
+                    <i class="fa fa-facebook"></i>
+                    <p><a href="https://www.facebook.com/groups/400497770649783/">Join at Facebook: ACM-W Chapter
+                            <br>IIT Mandi</a></p>
+                </div>
+                <div >
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:" class="wrap-text">acmwchapter@students.iitmandi.ac.in</a></p>
+                </div>
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Indian Institute of Technology Mandi,Mandi,<br> Himachal Pradesh, India-175005</span></p>
+                </div>
 
-<h1><b>Contact Us</b></h1>
-<form>
-<input type="text" name="name" placeholder="Your Name" /><br>
-<input type="email" name="_replyto" placeholder="Email Address" /><br>
-<textarea name="message" name="your message" placeholder="Type your Message"></textarea><br>
-<input type="submit" value="Send" />
-<input type="hidden" name="_next" value="https://index.html/thanks.html"/>
 
-</form>
-					
-			</div>
-		</footer>
-	</div>
-    </body>
+
+
+            </div>
+            <div class="footer-right">
+                <form action="http://formspree.io/" method="post">
+                    <div class="form-style">
+
+                        <h1><b>Contact Us</b></h1>
+                        <form>
+                            <input type="text" name="name" placeholder="Your Name" /><br>
+                            <input type="email" name="_replyto" placeholder="Email Address" /><br>
+                            <textarea name="message" name="your message" placeholder="Type your Message"></textarea><br>
+                            <input type="submit" value="Send" />
+                            <input type="hidden" name="_next" value="https://index.html/thanks.html" />
+
+                        </form>
+
+                    </div>
+        </footer>
+    </div>
+</body>
+
 </html>
